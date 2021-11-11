@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\githup\\ApiGetWay\\OrderProcessing\\Product\\OrderProcessing.Product\\OrderProcessing.Product.csproj": {}
+    "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product\\OrderProcessing.Product.csproj": {}
   },
   "projects": {
-    "E:\\githup\\ApiGetWay\\OrderProcessing\\Product\\OrderProcessing.Product\\OrderProcessing.Product.csproj": {
+    "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product\\OrderProcessing.Product.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\githup\\ApiGetWay\\OrderProcessing\\Product\\OrderProcessing.Product\\OrderProcessing.Product.csproj",
+        "projectUniqueName": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product\\OrderProcessing.Product.csproj",
         "projectName": "OrderProcessing.Product",
-        "projectPath": "E:\\githup\\ApiGetWay\\OrderProcessing\\Product\\OrderProcessing.Product\\OrderProcessing.Product.csproj",
+        "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product\\OrderProcessing.Product.csproj",
         "packagesPath": "C:\\Users\\Programmer\\.nuget\\packages\\",
-        "outputPath": "E:\\githup\\ApiGetWay\\OrderProcessing\\Product\\OrderProcessing.Product\\obj\\",
+        "outputPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\githup\\ApiGetWay\\OrderProcessing\\Customer\\OrderProcessing.Customer.Entity\\OrderProcessing.Customer.Entity.csproj": {}
+    "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer.Entity\\OrderProcessing.Customer.Entity.csproj": {}
   },
   "projects": {
-    "E:\\githup\\ApiGetWay\\OrderProcessing\\Customer\\OrderProcessing.Customer.Entity\\OrderProcessing.Customer.Entity.csproj": {
+    "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer.Entity\\OrderProcessing.Customer.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\githup\\ApiGetWay\\OrderProcessing\\Customer\\OrderProcessing.Customer.Entity\\OrderProcessing.Customer.Entity.csproj",
+        "projectUniqueName": "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer.Entity\\OrderProcessing.Customer.Entity.csproj",
         "projectName": "OrderProcessing.Customer.Entity",
-        "projectPath": "E:\\githup\\ApiGetWay\\OrderProcessing\\Customer\\OrderProcessing.Customer.Entity\\OrderProcessing.Customer.Entity.csproj",
+        "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer.Entity\\OrderProcessing.Customer.Entity.csproj",
         "packagesPath": "C:\\Users\\Programmer\\.nuget\\packages\\",
-        "outputPath": "E:\\githup\\ApiGetWay\\OrderProcessing\\Customer\\OrderProcessing.Customer.Entity\\obj\\",
+        "outputPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",

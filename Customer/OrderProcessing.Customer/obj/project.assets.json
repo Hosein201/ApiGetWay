@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\githup\\ApiGetWay\\OrderProcessing\\Customer\\OrderProcessing.Customer\\OrderProcessing.Customer.csproj",
+      "projectUniqueName": "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer\\OrderProcessing.Customer.csproj",
       "projectName": "OrderProcessing.Customer",
-      "projectPath": "E:\\githup\\ApiGetWay\\OrderProcessing\\Customer\\OrderProcessing.Customer\\OrderProcessing.Customer.csproj",
+      "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer\\OrderProcessing.Customer.csproj",
       "packagesPath": "C:\\Users\\Programmer\\.nuget\\packages\\",
-      "outputPath": "E:\\githup\\ApiGetWay\\OrderProcessing\\Customer\\OrderProcessing.Customer\\obj\\",
+      "outputPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",

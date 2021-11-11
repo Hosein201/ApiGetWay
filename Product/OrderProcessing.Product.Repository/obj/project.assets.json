@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\githup\\ApiGetWay\\OrderProcessing\\OrderProcessing.Product.Repository\\OrderProcessing.Product.Repository.csproj",
+      "projectUniqueName": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Repository\\OrderProcessing.Product.Repository.csproj",
       "projectName": "OrderProcessing.Product.Repository",
-      "projectPath": "E:\\githup\\ApiGetWay\\OrderProcessing\\OrderProcessing.Product.Repository\\OrderProcessing.Product.Repository.csproj",
+      "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Repository\\OrderProcessing.Product.Repository.csproj",
       "packagesPath": "C:\\Users\\Programmer\\.nuget\\packages\\",
-      "outputPath": "E:\\githup\\ApiGetWay\\OrderProcessing\\OrderProcessing.Product.Repository\\obj\\",
+      "outputPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessing.Customer", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessing.Product", "Product\OrderProcessing.Product\OrderProcessing.Product.csproj", "{0596AABA-85C1-4BEB-98C3-26CFF4309382}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessing", "OrderProcessing\OrderProcessing.csproj", "{6ED0054B-6AB2-4BD5-903B-3A88BD13B934}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessing", "GetWay\OrderProcessing.csproj", "{6ED0054B-6AB2-4BD5-903B-3A88BD13B934}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Customer", "Customer", "{03C14109-BEC8-408E-8627-2ADF726422E2}"
 EndProject
@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing.Customer.Re
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing.Product.Entity", "Product\OrderProcessing.Product.Entity\OrderProcessing.Product.Entity.csproj", "{C4663DF0-2987-4879-A0F9-B22CBD2C4C4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing.Product.Repository", "OrderProcessing.Product.Repository\OrderProcessing.Product.Repository.csproj", "{CCE61E85-E217-43AF-9D8D-553CC8F8016A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing.Product.Repository", "Product\OrderProcessing.Product.Repository\OrderProcessing.Product.Repository.csproj", "{CCE61E85-E217-43AF-9D8D-553CC8F8016A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

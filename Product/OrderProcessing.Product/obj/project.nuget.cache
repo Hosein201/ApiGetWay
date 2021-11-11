@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PtvAWBO+94dB8pMEs37WAJqqg34ZDfdJVz7UPXm3/O6M2/t8/2mkNlvrhFnVPJcaw4j0Ccp7DMVpf3ZJtZ4PDQ==",
+  "dgSpecHash": "9u5tauoua0myK6fV7SAmKQhlM6wREHZ5xRih9YkJ/awzJENxr7eTNDLKVGi+aefMnzOKYUVoYtFASI29I6eIOg==",
   "success": true,
-  "projectFilePath": "E:\\githup\\ApiGetWay\\OrderProcessing\\Product\\OrderProcessing.Product\\OrderProcessing.Product.csproj",
+  "projectFilePath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product\\OrderProcessing.Product.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
