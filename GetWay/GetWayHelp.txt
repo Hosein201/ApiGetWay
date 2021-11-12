@@ -1,0 +1,9 @@
+# upstream : refers to the request sent by the client to the API Gateway
+# downstream : related to the request that the API Gateway sends to a particular microservice.
+
+#DownstreamPathTemplate : Url of api microservice
+#DownstreamScheme : Type of scheme for url api microservice http/https
+#DownstreamHostAndPorts : set namehost and ports of url api microservice
+
+#UpstreamPathTemplate : Url Api GetWay
+#UpstreamHttpMethod : Type of Http Method GET/POST/PUT/DELETE/...

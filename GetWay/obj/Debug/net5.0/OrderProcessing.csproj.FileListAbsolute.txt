@@ -44,3 +44,14 @@ E:\githup\ApiGetWay\ApiGetWay\GetWay\obj\Debug\net5.0\OrderProcessing.dll
 E:\githup\ApiGetWay\ApiGetWay\GetWay\obj\Debug\net5.0\ref\OrderProcessing.dll
 E:\githup\ApiGetWay\ApiGetWay\GetWay\obj\Debug\net5.0\OrderProcessing.pdb
 E:\githup\ApiGetWay\ApiGetWay\GetWay\obj\Debug\net5.0\OrderProcessing.genruntimeconfig.cache
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Ocelot.json
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\FluentValidation.dll
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Microsoft.Extensions.DiagnosticAdapter.dll
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Ocelot.dll
+E:\githup\ApiGetWay\ApiGetWay\GetWay\obj\Debug\net5.0\OrderProcessing.MvcApplicationPartsAssemblyInfo.cs
+E:\githup\ApiGetWay\ApiGetWay\GetWay\obj\Debug\net5.0\OrderProcessing.csproj.CopyComplete
