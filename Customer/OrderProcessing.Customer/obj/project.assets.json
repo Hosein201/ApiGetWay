@@ -75,6 +75,29 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "OrderProcessing.Customer.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/OrderProcessing.Customer.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.Customer.Entity.dll": {}
+        }
+      },
+      "OrderProcessing.Customer.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "OrderProcessing.Customer.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderProcessing.Customer.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.Customer.Repository.dll": {}
+        }
       }
     }
   },
@@ -185,10 +208,21 @@
         "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "OrderProcessing.Customer.Entity/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessing.Customer.Entity/OrderProcessing.Customer.Entity.csproj",
+      "msbuildProject": "../OrderProcessing.Customer.Entity/OrderProcessing.Customer.Entity.csproj"
+    },
+    "OrderProcessing.Customer.Repository/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessing.Customer.Repository/OrderProcessing.Customer.Repository.csproj",
+      "msbuildProject": "../OrderProcessing.Customer.Repository/OrderProcessing.Customer.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "OrderProcessing.Customer.Repository >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -219,7 +253,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer.Repository\\OrderProcessing.Customer.Repository.csproj": {
+              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer.Repository\\OrderProcessing.Customer.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

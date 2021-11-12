@@ -1,0 +1,15 @@
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\OrderProcessing.Product.Repository.csprojAssemblyReference.cache
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\OrderProcessing.Product.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\OrderProcessing.Product.Repository.AssemblyInfoInputs.cache
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\OrderProcessing.Product.Repository.AssemblyInfo.cs
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\OrderProcessing.Product.Repository.csproj.CoreCompileInputs.cache
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\OrderProcessing.Product.Repository.deps.json
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\OrderProcessing.Product.Repository.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\ref\OrderProcessing.Product.Repository.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\OrderProcessing.Product.Repository.pdb
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\OrderProcessing.Product.Entity.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\OrderProcessing.Product.Entity.pdb
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\OrderProcessing.Product.Repository.csproj.CopyComplete
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\OrderProcessing.Product.Repository.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\ref\OrderProcessing.Product.Repository.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\OrderProcessing.Product.Repository.pdb

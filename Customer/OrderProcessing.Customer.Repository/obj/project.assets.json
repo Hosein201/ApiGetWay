@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "OrderProcessing.Customer.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/OrderProcessing.Customer.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.Customer.Entity.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "OrderProcessing.Customer.Entity/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessing.Customer.Entity/OrderProcessing.Customer.Entity.csproj",
+      "msbuildProject": "../OrderProcessing.Customer.Entity/OrderProcessing.Customer.Entity.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "OrderProcessing.Customer.Entity >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Programmer\\.nuget\\packages\\": {}
@@ -34,7 +53,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer.Entity\\OrderProcessing.Customer.Entity.csproj": {
+              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Customer\\OrderProcessing.Customer.Entity\\OrderProcessing.Customer.Entity.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

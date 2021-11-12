@@ -1,0 +1,12 @@
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\bin\Debug\net5.0\OrderProcessing.Product.Entity.deps.json
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\bin\Debug\net5.0\OrderProcessing.Product.Entity.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\bin\Debug\net5.0\ref\OrderProcessing.Product.Entity.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\bin\Debug\net5.0\OrderProcessing.Product.Entity.pdb
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\OrderProcessing.Product.Entity.csprojAssemblyReference.cache
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\OrderProcessing.Product.Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\OrderProcessing.Product.Entity.AssemblyInfoInputs.cache
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\OrderProcessing.Product.Entity.AssemblyInfo.cs
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\OrderProcessing.Product.Entity.csproj.CoreCompileInputs.cache
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\OrderProcessing.Product.Entity.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\ref\OrderProcessing.Product.Entity.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\OrderProcessing.Product.Entity.pdb
