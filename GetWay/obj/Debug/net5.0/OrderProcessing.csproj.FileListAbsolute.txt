@@ -55,3 +55,5 @@ E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Ocelot.dll
 E:\githup\ApiGetWay\ApiGetWay\GetWay\obj\Debug\net5.0\OrderProcessing.MvcApplicationPartsAssemblyInfo.cs
 E:\githup\ApiGetWay\ApiGetWay\GetWay\obj\Debug\net5.0\OrderProcessing.csproj.CopyComplete
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Infrastructure.pdb

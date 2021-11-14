@@ -9,6 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Infrastructure.csproj" />
     <ProjectReference Include="..\OrderProcessing.Product.Repository\OrderProcessing.Product.Repository.csproj" />
   </ItemGroup>
 

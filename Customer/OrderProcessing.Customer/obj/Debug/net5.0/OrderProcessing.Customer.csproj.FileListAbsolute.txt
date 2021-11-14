@@ -60,3 +60,5 @@ E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer\bin\Debug\net5.0
 E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer\bin\Debug\net5.0\OrderProcessing.Customer.Repository.dll
 E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer\bin\Debug\net5.0\OrderProcessing.Customer.Repository.pdb
 E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer\bin\Debug\net5.0\OrderProcessing.Customer.Entity.pdb
+E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer\bin\Debug\net5.0\Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer\bin\Debug\net5.0\Infrastructure.pdb

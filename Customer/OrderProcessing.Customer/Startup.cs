@@ -11,14 +11,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Infrastructure;
 
 namespace OrderProcessing.Customer
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Setting SiteSettings { get; set; }
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Configuration = configuration;
+            SiteSettings = configuration.GetSection(nameof(Setting)).Get<Setting>();
+            var builder = new ConfigurationBuilder()
+               .SetBasePath(env.ContentRootPath)
+               .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+               .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+               .AddEnvironmentVariables().Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -28,6 +36,7 @@ namespace OrderProcessing.Customer
         {
 
             services.AddControllers();
+            services.ConfigureCors(SiteSettings.CorsSetting);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "OrderProcessing.Customer", Version = "v1" });

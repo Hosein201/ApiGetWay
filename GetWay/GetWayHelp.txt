@@ -7,3 +7,5 @@
 
 #UpstreamPathTemplate : Url Api GetWay
 #UpstreamHttpMethod : Type of Http Method GET/POST/PUT/DELETE/...
+
+#GlobalConfiguration : Set BaseUrl For Api Getway

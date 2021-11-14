@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "OrderProcessing.Product.Repository/1.0.0": {
+        "dependencies": {
+          "OrderProcessing.Product.Entity": "1.0.0"
+        },
+        "runtime": {
+          "OrderProcessing.Product.Repository.dll": {}
+        }
+      },
+      "OrderProcessing.Product.Entity/1.0.0": {
+        "runtime": {
+          "OrderProcessing.Product.Entity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrderProcessing.Product.Repository/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "OrderProcessing.Product.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
