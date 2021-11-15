@@ -9,3 +9,11 @@
 #UpstreamHttpMethod : Type of Http Method GET/POST/PUT/DELETE/...
 
 #GlobalConfiguration : Set BaseUrl For Api Getway
+
+
+-------------------------------
+TODO :
+services.AddAuthentication
+services.AddIdentity
+serilog
+Custom Exception Handler

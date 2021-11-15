@@ -17,11 +17,13 @@ namespace OrderProcessing.Customer
 {
     public class Startup
     {
-        public Setting SiteSettings { get; set; }
+        public IConfiguration Configuration { get; }
+        public SettingMicroService SiteSettings { get; set; }
+
         public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Configuration = configuration;
-            SiteSettings = configuration.GetSection(nameof(Setting)).Get<Setting>();
+            SiteSettings = Configuration.GetSection(nameof(SettingMicroService)).Get<SettingMicroService>();
             var builder = new ConfigurationBuilder()
                .SetBasePath(env.ContentRootPath)
                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
@@ -29,7 +31,6 @@ namespace OrderProcessing.Customer
                .AddEnvironmentVariables().Build();
         }
 
-        public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)

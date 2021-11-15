@@ -56,3 +56,7 @@ E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\O
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\OrderProcessing.Product.Entity.pdb
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\Infrastructure.dll
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\Infrastructure.pdb
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll

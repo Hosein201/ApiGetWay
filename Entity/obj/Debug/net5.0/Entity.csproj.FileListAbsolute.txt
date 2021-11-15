@@ -10,3 +10,6 @@ E:\githup\ApiGetWay\ApiGetWay\Entity\obj\Debug\net5.0\Entity.csproj.CoreCompileI
 E:\githup\ApiGetWay\ApiGetWay\Entity\obj\Debug\net5.0\Entity.dll
 E:\githup\ApiGetWay\ApiGetWay\Entity\obj\Debug\net5.0\ref\Entity.dll
 E:\githup\ApiGetWay\ApiGetWay\Entity\obj\Debug\net5.0\Entity.pdb
+E:\githup\ApiGetWay\ApiGetWay\Entity\bin\Debug\net5.0\Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\Entity\bin\Debug\net5.0\Infrastructure.pdb
+E:\githup\ApiGetWay\ApiGetWay\Entity\obj\Debug\net5.0\Entity.csproj.CopyComplete

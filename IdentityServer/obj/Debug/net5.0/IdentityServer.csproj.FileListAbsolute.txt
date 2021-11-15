@@ -13,3 +13,5 @@ E:\githup\ApiGetWay\ApiGetWay\IdentityServer\obj\Debug\net5.0\IdentityServer.csp
 E:\githup\ApiGetWay\ApiGetWay\IdentityServer\obj\Debug\net5.0\IdentityServer.dll
 E:\githup\ApiGetWay\ApiGetWay\IdentityServer\obj\Debug\net5.0\ref\IdentityServer.dll
 E:\githup\ApiGetWay\ApiGetWay\IdentityServer\obj\Debug\net5.0\IdentityServer.pdb
+E:\githup\ApiGetWay\ApiGetWay\IdentityServer\bin\Debug\net5.0\Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\IdentityServer\bin\Debug\net5.0\Infrastructure.pdb
