@@ -60,3 +60,4 @@ E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\M
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product\bin\Debug\net5.0\AutoMapper.dll

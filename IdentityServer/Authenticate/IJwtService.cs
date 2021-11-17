@@ -1,9 +1,10 @@
 ﻿using Entity.Models;
+using System.Threading.Tasks;
 
 namespace IdentityServer.Authenticate
 {
     public interface IJwtService
     {
-        AccessToken GenerateAsync(User user);
+       Task<AccessToken> GenerateAsync(User user);
     }
 }

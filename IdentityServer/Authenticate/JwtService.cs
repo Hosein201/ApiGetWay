@@ -8,21 +8,22 @@ using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace IdentityServer.Authenticate
 {
     public class JwtService : IJwtService
     {
         private readonly SettingGetWay siteSetting;
-        //private readonly SignInManager<User> signInManager;
+        private readonly SignInManager<User> signInManager;
 
         public JwtService(IOptionsSnapshot<SettingGetWay> settings, SignInManager<User> signInManager)
         {
             siteSetting = settings.Value;
-            //this.signInManager = signInManager;
+            this.signInManager = signInManager;
         }
 
-        public AccessToken GenerateAsync(User user)
+        public async Task<AccessToken> GenerateAsync(User user)
         {
             var secretKey = Encoding.UTF8.GetBytes(siteSetting.JwtSettings.SecretKey); // longer that 16 character
             var encryptkey = Encoding.UTF8.GetBytes(siteSetting.JwtSettings.Encryptkey);
@@ -31,7 +32,7 @@ namespace IdentityServer.Authenticate
             var encryptingCredentials = new EncryptingCredentials(new SymmetricSecurityKey(encryptkey),
                       SecurityAlgorithms.Aes128KW, SecurityAlgorithms.Aes128CbcHmacSha256);
 
-            var claims = GetClaimsAsync(user);
+            var claims = await GetClaimsAsync(user);
 
             var descriptor = new SecurityTokenDescriptor
             {
@@ -49,19 +50,22 @@ namespace IdentityServer.Authenticate
 
             var securityToken = tokenHandler.CreateJwtSecurityToken(descriptor);
 
-            return new AccessToken(securityToken);
+            return new AccessToken(
+                new JwtSecurityTokenHandler().WriteToken(securityToken),
+                "Bearer",
+                (int)(securityToken.ValidTo - DateTime.UtcNow).TotalSeconds);
         }
 
-        private static IEnumerable<Claim> GetClaimsAsync(User user)
+        private async Task<IEnumerable<Claim>> GetClaimsAsync(User user)
         {
-            //var result = await signInManager.ClaimsFactory.CreateAsync(user);
+            var result = await signInManager.ClaimsFactory.CreateAsync(user);
 
             var securityStampClaimType = new ClaimsIdentityOptions().SecurityStampClaimType;
 
             return new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+               // new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 //new Claim(ClaimTypes.MobilePhone, "09123456987"),
                 new Claim(securityStampClaimType, user.SecurityStamp.ToString())
             };
