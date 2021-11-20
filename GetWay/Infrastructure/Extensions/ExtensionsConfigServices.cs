@@ -5,9 +5,9 @@ using Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace OrderProcessing.Infrastructure
+namespace OrderProcessing.Infrastructure.Extensions
 {
-    public static class Extensions
+    public static class ExtensionsConfigServices
     {
         public static void ConfigDbContext(this IServiceCollection services, ConnectionString connectionString)
         {

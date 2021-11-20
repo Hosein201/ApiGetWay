@@ -96,3 +96,4 @@ E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\IdentityServer.dll
 E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\IdentityServer.pdb
 E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Entity.pdb
 E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\AutoMapper.dll
+E:\githup\ApiGetWay\ApiGetWay\GetWay\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

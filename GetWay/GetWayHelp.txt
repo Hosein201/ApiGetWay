@@ -13,7 +13,8 @@
 
 -------------------------------
 TODO :
-services.AddAuthentication
-services.AddIdentity
+create dbContext 
+Cache rep to redis and memory 
+
 serilog
 Custom Exception Handler
