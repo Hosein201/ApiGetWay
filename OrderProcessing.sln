@@ -21,15 +21,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessing.Product.Rep
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessing.Product", "Product\OrderProcessing.Product\OrderProcessing.Product.csproj", "{7FEAC988-6CFC-49F2-9645-1BCE676CC9C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing.Customer.Infrastructure", "Customer\OrderProcessing.Customer.Infrastructure\OrderProcessing.Customer.Infrastructure.csproj", "{2B47427B-96A7-4F57-9766-DA935977DD0E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessing.Customer.Infrastructure", "Customer\OrderProcessing.Customer.Infrastructure\OrderProcessing.Customer.Infrastructure.csproj", "{2B47427B-96A7-4F57-9766-DA935977DD0E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing.Product.Infrastructure", "Product\OrderProcessing.Product.Infrastructure\OrderProcessing.Product.Infrastructure.csproj", "{BBAE5405-2EA7-4B10-B356-68F65499C6B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OrderProcessing.Product.Infrastructure", "Product\OrderProcessing.Product.Infrastructure\OrderProcessing.Product.Infrastructure.csproj", "{BBAE5405-2EA7-4B10-B356-68F65499C6B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{113C61CE-80B3-45F5-A09F-4A9D5A581F5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Sherd\Infrastructure\Infrastructure.csproj", "{113C61CE-80B3-45F5-A09F-4A9D5A581F5B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity", "Entity\Entity.csproj", "{718A3121-88B1-4C67-ADD9-098D3D563FDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Sherd\Entity\Entity.csproj", "{718A3121-88B1-4C67-ADD9-098D3D563FDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{84FC93A0-6D9D-4F9E-A2F2-2184BE1E5555}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{84FC93A0-6D9D-4F9E-A2F2-2184BE1E5555}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sherd", "Sherd", "{78F991BE-B2C2-4623-AF24-F9EA84262764}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -98,6 +100,8 @@ Global
 		{7FEAC988-6CFC-49F2-9645-1BCE676CC9C2} = {010A51E1-C8F0-49FA-B849-117F4E9B3D6C}
 		{2B47427B-96A7-4F57-9766-DA935977DD0E} = {03C14109-BEC8-408E-8627-2ADF726422E2}
 		{BBAE5405-2EA7-4B10-B356-68F65499C6B4} = {010A51E1-C8F0-49FA-B849-117F4E9B3D6C}
+		{113C61CE-80B3-45F5-A09F-4A9D5A581F5B} = {78F991BE-B2C2-4623-AF24-F9EA84262764}
+		{718A3121-88B1-4C67-ADD9-098D3D563FDC} = {78F991BE-B2C2-4623-AF24-F9EA84262764}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {214F5969-AB5A-40EB-B82A-3A6D3E594742}

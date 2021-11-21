@@ -13,3 +13,9 @@ E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Deb
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\OrderProcessing.Product.Repository.dll
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\ref\OrderProcessing.Product.Repository.dll
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\obj\Debug\net5.0\OrderProcessing.Product.Repository.pdb
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\Entity.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\Entity.pdb
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\Infrastructure.pdb
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\OrderProcessing.Product.Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Repository\bin\Debug\net5.0\OrderProcessing.Product.Infrastructure.pdb

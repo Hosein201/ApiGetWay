@@ -10,3 +10,10 @@ E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\n
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\OrderProcessing.Product.Entity.dll
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\ref\OrderProcessing.Product.Entity.dll
 E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\OrderProcessing.Product.Entity.pdb
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\bin\Debug\net5.0\Entity.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\bin\Debug\net5.0\Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\bin\Debug\net5.0\Entity.pdb
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\bin\Debug\net5.0\Infrastructure.pdb
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\obj\Debug\net5.0\OrderProcessing.Product.Entity.csproj.CopyComplete
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\bin\Debug\net5.0\OrderProcessing.Product.Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\Product\OrderProcessing.Product.Entity\bin\Debug\net5.0\OrderProcessing.Product.Infrastructure.pdb

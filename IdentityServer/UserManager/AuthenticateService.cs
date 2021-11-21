@@ -33,7 +33,7 @@ namespace IdentityServer.UserManager
 
         public async Task<AccessToken> Regsiter(RegsiterDto dto)
         {
-            var result = await UserManager.FinadUserForRegsiter(dto.UserName, dto.Phone, dto.Email);
+            var result = await UserManager.FinadUserForRegsiterAsync(dto.UserName, dto.Phone, dto.Email);
             if (result.Success)
             {
                 var destination = MappingExtensions.MapTo<RegsiterDto, User>(dto);

@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Sherd\Entity\Entity.csproj" />
+    <ProjectReference Include="..\OrderProcessing.Customer.Infrastructure\OrderProcessing.Customer.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

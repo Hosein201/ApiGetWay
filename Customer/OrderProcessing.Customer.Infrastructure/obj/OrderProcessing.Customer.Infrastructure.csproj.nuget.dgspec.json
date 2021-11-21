@@ -29,8 +29,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\githup\\ApiGetWay\\ApiGetWay\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Infrastructure\\Infrastructure.csproj"
+              "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -69,14 +69,14 @@
         }
       }
     },
-    "E:\\githup\\ApiGetWay\\ApiGetWay\\Infrastructure\\Infrastructure.csproj": {
+    "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\githup\\ApiGetWay\\ApiGetWay\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Programmer\\.nuget\\packages\\",
-        "outputPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Infrastructure\\obj\\",
+        "outputPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",

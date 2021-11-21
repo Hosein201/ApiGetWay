@@ -10,3 +10,10 @@ E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer.Entity\obj\Debug
 E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer.Entity\obj\Debug\net5.0\OrderProcessing.Customer.Entity.dll
 E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer.Entity\obj\Debug\net5.0\ref\OrderProcessing.Customer.Entity.dll
 E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer.Entity\obj\Debug\net5.0\OrderProcessing.Customer.Entity.pdb
+E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer.Entity\bin\Debug\net5.0\Entity.dll
+E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer.Entity\bin\Debug\net5.0\Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer.Entity\bin\Debug\net5.0\Entity.pdb
+E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer.Entity\bin\Debug\net5.0\Infrastructure.pdb
+E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer.Entity\obj\Debug\net5.0\OrderProcessing.Customer.Entity.csproj.CopyComplete
+E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer.Entity\bin\Debug\net5.0\OrderProcessing.Customer.Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\Customer\OrderProcessing.Customer.Entity\bin\Debug\net5.0\OrderProcessing.Customer.Infrastructure.pdb
