@@ -36,6 +36,7 @@ namespace OrderProcessing
             services.AddOcelot(Configuration);
             services.AddCustomeAuthentication(settingGetWay.JwtSettings);
             services.AddCustomeIdentity(settingGetWay.IdentitySettings);
+            services.AddSingletonConfig();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

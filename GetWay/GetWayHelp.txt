@@ -16,5 +16,5 @@ TODO :
 create dbContext 
 Cache rep to redis and memory 
 
-serilog
 Custom Exception Handler
+--custom logger requset

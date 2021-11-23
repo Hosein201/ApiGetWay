@@ -1,4 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Infrastructure.Log;
+using Microsoft.Extensions.DependencyInjection;
+using Serilog;
+using Serilog.Core;
 
 namespace Infrastructure
 {
@@ -18,6 +21,12 @@ namespace Infrastructure
                    .WithHeaders(corsSetting.Headers);
                 });
             });
-        }      
+        }
+
+        public static void AddSingletonConfig(this IServiceCollection services)
+        {
+            services.AddSingleton(typeof(ILogger));
+            services.AddSingleton(typeof(IAppLogger), typeof(AppLogger));
+        }
     }
 }

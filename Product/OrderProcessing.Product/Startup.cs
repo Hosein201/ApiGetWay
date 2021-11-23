@@ -30,6 +30,7 @@ namespace OrderProcessing.Product
 
             services.AddControllers();
             services.ConfigureCors(SiteSettings.CorsSetting);
+            services.AddSingletonConfig();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "OrderProcessing.Product", Version = "v1" });
