@@ -7,10 +7,10 @@ namespace OrderProcessing.Product.Repository
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly List<Entity.Product> products = new();
+        private readonly List<Entity.Models.Product.Product> products = new();
         public ProductRepository()
         {
-            products.Add(new Entity.Product
+            products.Add(new Entity.Models.Product.Product
             {
                 Id = Guid.NewGuid(),
                 Code = "P0001",
@@ -19,7 +19,7 @@ namespace OrderProcessing.Product.Repository
                 Unit_Price = 125000
             });
 
-            products.Add(new Entity.Product
+            products.Add(new Entity.Models.Product.Product
             {
                 Id = Guid.NewGuid(),
                 Code = "P0002",
@@ -28,7 +28,7 @@ namespace OrderProcessing.Product.Repository
                 Unit_Price = 135000
             });
 
-            products.Add(new Entity.Product
+            products.Add(new Entity.Models.Product.Product
             {
                 Id = Guid.NewGuid(),
                 Code = "P0003",
@@ -38,7 +38,7 @@ namespace OrderProcessing.Product.Repository
             });
         }
 
-        public Task<List<Entity.Product>> GetAllProducts()
+        public Task<List<Entity.Models.Product.Product>> GetAllProducts()
         {
             return Task.FromResult(products);
         }

@@ -5,6 +5,6 @@ namespace OrderProcessing.Product.Repository
 {
     public interface IProductRepository
     {
-        Task<List<Entity.Product>> GetAllProducts();
+        Task<List<Entity.Models.Product.Product>> GetAllProducts();
     }
 }

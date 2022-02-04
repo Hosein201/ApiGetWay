@@ -12,8 +12,7 @@
 
 
 -------------------------------
-TODO :
-create dbContext 
+TODO : 
 Cache rep to redis and memory 
 
 Custom Exception Handler

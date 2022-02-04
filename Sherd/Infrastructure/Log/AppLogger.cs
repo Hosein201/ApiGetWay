@@ -27,7 +27,7 @@ namespace Infrastructure.Log
         //
         //   propertyValues:
         //     Objects positionally formatted into the message template.
-        public void Write(LogEventLevel level, Exception exception, string messageTemplate, params object[] propertyValues)
+        public void WriteLogg(LogEventLevel level, Exception exception, string messageTemplate, params object[] propertyValues)
         {
             Logger.Write(level, exception, messageTemplate, propertyValues);
         }
@@ -38,7 +38,7 @@ namespace Infrastructure.Log
         // Parameters:
         //   logEvent:
         //     The event to write.
-        public void Write(LogEvent logEvent)
+        public void WriteLogg(LogEvent logEvent)
         {
             Logger.Write(logEvent);
         }
@@ -52,7 +52,7 @@ namespace Infrastructure.Log
         //
         //   messageTemplate:
         //     Message template describing the event.
-        public void Write(LogEventLevel level, string messageTemplate)
+        public void WriteLogg(LogEventLevel level, string messageTemplate)
         {
             Logger.Write(level, messageTemplate);
         }
@@ -69,7 +69,7 @@ namespace Infrastructure.Log
         //
         //   propertyValue:
         //     Object positionally formatted into the message template.
-        public void Write<T>(LogEventLevel level, string messageTemplate, T propertyValue)
+        public void WriteLogg<T>(LogEventLevel level, string messageTemplate, T propertyValue)
         {
             Logger.Write(level, messageTemplate, propertyValue);
         }
@@ -92,7 +92,7 @@ namespace Infrastructure.Log
         //
         //   propertyValue2:
         //     Object positionally formatted into the message template.
-        public void Write<T0, T1, T2>(LogEventLevel level, string messageTemplate, T0 propertyValue0, T1 propertyValue1, T2 propertyValue2)
+        public void WriteLogg<T0, T1, T2>(LogEventLevel level, string messageTemplate, T0 propertyValue0, T1 propertyValue1, T2 propertyValue2)
         {
             Logger.Write(level, messageTemplate, propertyValue0, propertyValue1, propertyValue2);
         }
@@ -107,7 +107,7 @@ namespace Infrastructure.Log
         //   messageTemplate:
         //
         //   propertyValues:
-        public void Write(LogEventLevel level, string messageTemplate, params object[] propertyValues)
+        public void WriteLogg(LogEventLevel level, string messageTemplate, params object[] propertyValues)
         {
             Logger.Write(level, messageTemplate, propertyValues);
         }
@@ -127,7 +127,7 @@ namespace Infrastructure.Log
         //
         //   propertyValue:
         //     Object positionally formatted into the message template.
-        public void Write<T>(LogEventLevel level, Exception exception, string messageTemplate, T propertyValue)
+        public void WriteLogg<T>(LogEventLevel level, Exception exception, string messageTemplate, T propertyValue)
         {
             Logger.Write(level, exception, messageTemplate, propertyValue);
         }
@@ -150,7 +150,7 @@ namespace Infrastructure.Log
         //
         //   propertyValue1:
         //     Object positionally formatted into the message template.
-        public void Write<T0, T1>(LogEventLevel level, Exception exception, string messageTemplate, T0 propertyValue0, T1 propertyValue1)
+        public void WriteLogg<T0, T1>(LogEventLevel level, Exception exception, string messageTemplate, T0 propertyValue0, T1 propertyValue1)
         {
             Logger.Write(level, exception, messageTemplate, propertyValue0, propertyValue1);
         }
@@ -176,7 +176,7 @@ namespace Infrastructure.Log
         //
         //   propertyValue2:
         //     Object positionally formatted into the message template.
-        public void Write<T0, T1, T2>(LogEventLevel level, Exception exception, string messageTemplate, T0 propertyValue0, T1 propertyValue1,
+        public void WriteLogg<T0, T1, T2>(LogEventLevel level, Exception exception, string messageTemplate, T0 propertyValue0, T1 propertyValue1,
             T2 propertyValue2)
         {
             Logger.Write(level, exception, messageTemplate, propertyValue0, propertyValue1, propertyValue2);
@@ -197,7 +197,7 @@ namespace Infrastructure.Log
         //
         //   propertyValue1:
         //     Object positionally formatted into the message template.
-        public void Write<T0, T1>(LogEventLevel level, string messageTemplate, T0 propertyValue0, T1 propertyValue1)
+        public void WriteLogg<T0, T1>(LogEventLevel level, string messageTemplate, T0 propertyValue0, T1 propertyValue1)
         {
             Logger.Write(level, messageTemplate, propertyValue0, propertyValue1);
         }
@@ -214,7 +214,7 @@ namespace Infrastructure.Log
         //
         //   messageTemplate:
         //     Message template describing the event.
-        public void Write(LogEventLevel level, Exception exception, string messageTemplate)
+        public void WriteLogg(LogEventLevel level, Exception exception, string messageTemplate)
         {
             Logger.Write(level, exception, messageTemplate);
         }

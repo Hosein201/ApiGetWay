@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Entity.Models
 {
-    public class User : IdentityUser<int>, IEntity
+    public class User : IdentityUser<Guid>, IEntity
     {
         public User()
         {
@@ -16,5 +16,6 @@ namespace Entity.Models
         public DateTime RegisterDate { get; set; }
 
         public ICollection<UserRoles> UserRoles { get; set; }
+        public Customer.Customer Customer { get; set; }
     }
 }

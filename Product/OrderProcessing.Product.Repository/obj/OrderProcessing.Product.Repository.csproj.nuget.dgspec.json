@@ -4,133 +4,6 @@
     "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Repository\\OrderProcessing.Product.Repository.csproj": {}
   },
   "projects": {
-    "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Entity\\OrderProcessing.Product.Entity.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Entity\\OrderProcessing.Product.Entity.csproj",
-        "projectName": "OrderProcessing.Product.Entity",
-        "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Entity\\OrderProcessing.Product.Entity.csproj",
-        "packagesPath": "C:\\Users\\Programmer\\.nuget\\packages\\",
-        "outputPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Entity\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Progress\\Telerik UI for WPF R1 2020\\Binaries\\NetCore\\NuGet": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Infrastructure\\OrderProcessing.Product.Infrastructure.csproj": {
-                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Infrastructure\\OrderProcessing.Product.Infrastructure.csproj"
-              },
-              "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Entity\\Entity.csproj": {
-                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Entity\\Entity.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Infrastructure\\OrderProcessing.Product.Infrastructure.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Infrastructure\\OrderProcessing.Product.Infrastructure.csproj",
-        "projectName": "OrderProcessing.Product.Infrastructure",
-        "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Infrastructure\\OrderProcessing.Product.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Programmer\\.nuget\\packages\\",
-        "outputPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Infrastructure\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files (x86)\\Progress\\Telerik UI for WPF R1 2020\\Binaries\\NetCore\\NuGet": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
-            "projectReferences": {
-              "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Infrastructure\\Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.Cors": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Repository\\OrderProcessing.Product.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -156,8 +29,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Entity\\OrderProcessing.Product.Entity.csproj": {
-                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Entity\\OrderProcessing.Product.Entity.csproj"
+              "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Entity\\Entity.csproj": {
+                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Entity\\Entity.csproj"
               }
             }
           }

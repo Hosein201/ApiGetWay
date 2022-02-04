@@ -10,6 +10,11 @@ namespace Entity.Configurations
         {
             builder.ToTable("Users", "identity");
             builder.HasKey(h => h.Id);
+            builder.HasOne(h => h.Customer)
+                   .WithOne(w => w.User)
+                   .HasForeignKey<Models.Customer.Customer>(f => f.UserId)
+                   .IsRequired();
+
         }
     }
 }

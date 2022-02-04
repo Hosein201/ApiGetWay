@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OrderProcessing.Product.Entity\OrderProcessing.Product.Entity.csproj" />
+    <ProjectReference Include="..\..\Sherd\Entity\Entity.csproj" />
   </ItemGroup>
 
 </Project>

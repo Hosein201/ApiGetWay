@@ -2662,34 +2662,6 @@
         "runtime": {
           "bin/placeholder/Infrastructure.dll": {}
         }
-      },
-      "OrderProcessing.Product.Entity/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Entity": "1.0.0",
-          "OrderProcessing.Product.Infrastructure": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/OrderProcessing.Product.Entity.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OrderProcessing.Product.Entity.dll": {}
-        }
-      },
-      "OrderProcessing.Product.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Infrastructure": "1.0.0",
-          "Microsoft.AspNetCore.Cors": "2.2.0"
-        },
-        "compile": {
-          "bin/placeholder/OrderProcessing.Product.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OrderProcessing.Product.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -8533,21 +8505,11 @@
       "type": "project",
       "path": "../../Sherd/Infrastructure/Infrastructure.csproj",
       "msbuildProject": "../../Sherd/Infrastructure/Infrastructure.csproj"
-    },
-    "OrderProcessing.Product.Entity/1.0.0": {
-      "type": "project",
-      "path": "../OrderProcessing.Product.Entity/OrderProcessing.Product.Entity.csproj",
-      "msbuildProject": "../OrderProcessing.Product.Entity/OrderProcessing.Product.Entity.csproj"
-    },
-    "OrderProcessing.Product.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../OrderProcessing.Product.Infrastructure/OrderProcessing.Product.Infrastructure.csproj",
-      "msbuildProject": "../OrderProcessing.Product.Infrastructure/OrderProcessing.Product.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "OrderProcessing.Product.Entity >= 1.0.0"
+      "Entity >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8578,8 +8540,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Entity\\OrderProcessing.Product.Entity.csproj": {
-              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Product\\OrderProcessing.Product.Entity\\OrderProcessing.Product.Entity.csproj"
+            "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Entity\\Entity.csproj": {
+              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Entity\\Entity.csproj"
             }
           }
         }

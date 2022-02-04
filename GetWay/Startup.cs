@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using OrderProcessing.Infrastructure.Extensions;
+using AutoMapper;
 
 namespace OrderProcessing
 {
@@ -37,6 +38,9 @@ namespace OrderProcessing
             services.AddCustomeAuthentication(settingGetWay.JwtSettings);
             services.AddCustomeIdentity(settingGetWay.IdentitySettings);
             services.AddSingletonConfig();
+            services.AddControllers()
+                .AddNewtonsoftJson(option => option.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
+            services.AddTransientService();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
