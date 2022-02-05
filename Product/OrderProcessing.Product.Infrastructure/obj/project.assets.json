@@ -6252,8 +6252,8 @@
     },
     "Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../../Sherd/Infrastructure/Infrastructure.csproj",
-      "msbuildProject": "../../Sherd/Infrastructure/Infrastructure.csproj"
+      "path": "../../Core/Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../../Core/Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6290,8 +6290,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Infrastructure\\Infrastructure.csproj"
+            "E:\\githup\\ApiGetWay\\ApiGetWay\\Core\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Core\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

@@ -8503,13 +8503,13 @@
     },
     "Entity/1.0.0": {
       "type": "project",
-      "path": "../Sherd/Entity/Entity.csproj",
-      "msbuildProject": "../Sherd/Entity/Entity.csproj"
+      "path": "../Core/Entity/Entity.csproj",
+      "msbuildProject": "../Core/Entity/Entity.csproj"
     },
     "Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Sherd/Infrastructure/Infrastructure.csproj",
-      "msbuildProject": "../Sherd/Infrastructure/Infrastructure.csproj"
+      "path": "../Core/Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Core/Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8547,8 +8547,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Entity\\Entity.csproj": {
-              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Sherd\\Entity\\Entity.csproj"
+            "E:\\githup\\ApiGetWay\\ApiGetWay\\Core\\Entity\\Entity.csproj": {
+              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Core\\Entity\\Entity.csproj"
             }
           }
         }

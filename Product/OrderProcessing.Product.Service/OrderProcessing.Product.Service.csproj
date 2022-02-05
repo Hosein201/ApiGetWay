@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Command\" />
+    <Folder Include="Commands\Handler\" />
+    <Folder Include="Events\Event\" />
+    <Folder Include="Events\Handler\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Queries\Handler\" />
+    <Folder Include="Queries\Query\" />
+  </ItemGroup>
+
+</Project>

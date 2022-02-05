@@ -8706,8 +8706,8 @@
     },
     "Entity/1.0.0": {
       "type": "project",
-      "path": "../Sherd/Entity/Entity.csproj",
-      "msbuildProject": "../Sherd/Entity/Entity.csproj"
+      "path": "../Core/Entity/Entity.csproj",
+      "msbuildProject": "../Core/Entity/Entity.csproj"
     },
     "IdentityServer/1.0.0": {
       "type": "project",
@@ -8716,8 +8716,8 @@
     },
     "Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Sherd/Infrastructure/Infrastructure.csproj",
-      "msbuildProject": "../Sherd/Infrastructure/Infrastructure.csproj"
+      "path": "../Core/Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Core/Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
