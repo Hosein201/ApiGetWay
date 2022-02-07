@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Dto\Product\" />
+    <Folder Include="Events\Order\" />
+    <Folder Include="Events\Product\" />
+    <Folder Include="Queries\Order\" />
+    <Folder Include="Queries\Product\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Entity.Data\Entity.Data.csproj" />
+  </ItemGroup>
+
+</Project>

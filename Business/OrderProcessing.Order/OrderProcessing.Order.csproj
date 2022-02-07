@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\Handler\" />
+    <Folder Include="Events\Handler\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Infrastructure\" />
+    <Folder Include="Service\" />
+    <Folder Include="Queries\Handler\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderProcessing.Mapper\OrderProcessing.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

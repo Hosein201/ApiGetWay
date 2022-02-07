@@ -9,6 +9,8 @@ namespace Entity.Configurations.Order
         {
             builder.ToTable("Orders", "order");
             builder.HasKey(h => h.Id);
+            builder.Property(p => p.ProductName).IsRequired(true);
+            builder.HasIndex(p => p.Code).IsUnique(true);
         }
     }
 }
