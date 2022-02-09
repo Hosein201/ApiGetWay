@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Handler\" />
     <Folder Include="Events\Handler\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Infrastructure\" />
