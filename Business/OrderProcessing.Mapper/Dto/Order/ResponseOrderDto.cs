@@ -2,7 +2,7 @@
 
 namespace OrderProcessing.Mapper.Dto.Order
 {
-    public class OrderResponseDto
+    public class ResponseOrderDto
     {
         public Guid Id { get; set; }
         public string ProductName { get; set; }

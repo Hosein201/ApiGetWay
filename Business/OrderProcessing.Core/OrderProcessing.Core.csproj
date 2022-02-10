@@ -5,9 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Middlewares\" />
     <Folder Include="Configuration\" />
-    <Folder Include="Attribute\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OrderProcessing.Order\OrderProcessing.Order.csproj" />
+    <ProjectReference Include="..\OrderProcessing.Permission\OrderProcessing.Permission.csproj" />
+    <ProjectReference Include="..\OrderProcessing.Product\OrderProcessing.Product.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2788,6 +2788,21 @@
           "bin/placeholder/Infrastructure.dll": {}
         }
       },
+      "OrderProcessing.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "OrderProcessing.Order": "1.0.0",
+          "OrderProcessing.Permission": "1.0.0",
+          "OrderProcessing.Product": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderProcessing.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.Core.dll": {}
+        }
+      },
       "OrderProcessing.Mapper/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -2812,6 +2827,19 @@
         },
         "runtime": {
           "bin/placeholder/OrderProcessing.Order.dll": {}
+        }
+      },
+      "OrderProcessing.Permission/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "OrderProcessing.Mapper": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderProcessing.Permission.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.Permission.dll": {}
         }
       },
       "OrderProcessing.Product/1.0.0": {
@@ -8830,6 +8858,11 @@
       "path": "../../Core/Infrastructure/Infrastructure.csproj",
       "msbuildProject": "../../Core/Infrastructure/Infrastructure.csproj"
     },
+    "OrderProcessing.Core/1.0.0": {
+      "type": "project",
+      "path": "../../Business/OrderProcessing.Core/OrderProcessing.Core.csproj",
+      "msbuildProject": "../../Business/OrderProcessing.Core/OrderProcessing.Core.csproj"
+    },
     "OrderProcessing.Mapper/1.0.0": {
       "type": "project",
       "path": "../../Business/OrderProcessing.Mapper/OrderProcessing.Mapper.csproj",
@@ -8840,6 +8873,11 @@
       "path": "../../Business/OrderProcessing.Order/OrderProcessing.Order.csproj",
       "msbuildProject": "../../Business/OrderProcessing.Order/OrderProcessing.Order.csproj"
     },
+    "OrderProcessing.Permission/1.0.0": {
+      "type": "project",
+      "path": "../../Business/OrderProcessing.Permission/OrderProcessing.Permission.csproj",
+      "msbuildProject": "../../Business/OrderProcessing.Permission/OrderProcessing.Permission.csproj"
+    },
     "OrderProcessing.Product/1.0.0": {
       "type": "project",
       "path": "../../Business/OrderProcessing.Product/OrderProcessing.Product.csproj",
@@ -8848,8 +8886,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "OrderProcessing.Order >= 1.0.0",
-      "OrderProcessing.Product >= 1.0.0",
+      "OrderProcessing.Core >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -8881,11 +8918,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Order\\OrderProcessing.Order.csproj": {
-              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Order\\OrderProcessing.Order.csproj"
-            },
-            "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Product\\OrderProcessing.Product.csproj": {
-              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Product\\OrderProcessing.Product.csproj"
+            "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Core\\OrderProcessing.Core.csproj": {
+              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Core\\OrderProcessing.Core.csproj"
             }
           }
         }

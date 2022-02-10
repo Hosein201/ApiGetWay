@@ -29,11 +29,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Order\\OrderProcessing.Order.csproj": {
-                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Order\\OrderProcessing.Order.csproj"
-              },
-              "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Product\\OrderProcessing.Product.csproj": {
-                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Product\\OrderProcessing.Product.csproj"
+              "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Core\\OrderProcessing.Core.csproj": {
+                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Core\\OrderProcessing.Core.csproj"
               }
             }
           }
@@ -67,6 +64,71 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Core\\OrderProcessing.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Core\\OrderProcessing.Core.csproj",
+        "projectName": "OrderProcessing.Core",
+        "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Core\\OrderProcessing.Core.csproj",
+        "packagesPath": "C:\\Users\\Programmer\\.nuget\\packages\\",
+        "outputPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for WPF R1 2020\\Binaries\\NetCore\\NuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Order\\OrderProcessing.Order.csproj": {
+                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Order\\OrderProcessing.Order.csproj"
+              },
+              "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Permission\\OrderProcessing.Permission.csproj": {
+                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Permission\\OrderProcessing.Permission.csproj"
+              },
+              "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Product\\OrderProcessing.Product.csproj": {
+                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Product\\OrderProcessing.Product.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
@@ -142,6 +204,65 @@
         "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Order\\OrderProcessing.Order.csproj",
         "packagesPath": "C:\\Users\\Programmer\\.nuget\\packages\\",
         "outputPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Order\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\Progress\\Telerik UI for WPF R1 2020\\Binaries\\NetCore\\NuGet": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Mapper\\OrderProcessing.Mapper.csproj": {
+                "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Mapper\\OrderProcessing.Mapper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Permission\\OrderProcessing.Permission.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Permission\\OrderProcessing.Permission.csproj",
+        "projectName": "OrderProcessing.Permission",
+        "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Permission\\OrderProcessing.Permission.csproj",
+        "packagesPath": "C:\\Users\\Programmer\\.nuget\\packages\\",
+        "outputPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Permission\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Programmer\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace OrderProcessing.Order.Commands.Handler
 {
-    public class OrderInsertCommandHandler : IRequestHandler<OrderInsertCommand, OrderResponseDto>
+    public class OrderInsertCommandHandler : IRequestHandler<OrderInsertCommand, ResponseOrderDto>
     {
-        public Task<OrderResponseDto> Handle(OrderInsertCommand request, CancellationToken cancellationToken)
+        public Task<ResponseOrderDto> Handle(OrderInsertCommand request, CancellationToken cancellationToken)
         {
             throw new NotImplementedException();
         }

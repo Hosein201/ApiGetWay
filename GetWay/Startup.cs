@@ -25,6 +25,7 @@ namespace OrderProcessing
                .SetBasePath(env.ContentRootPath)
                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+               .AddJsonFile("Ocelot.json",optional:false,reloadOnChange:true)
                .AddEnvironmentVariables().Build();
         }
 

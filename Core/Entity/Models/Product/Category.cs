@@ -13,6 +13,7 @@ namespace Entity.Models.Product
 
         public Guid Id { get; set; }
         public string Name { get; set; }
+        public int Code { get; set; }
         public DateTime CreateDateTime { get; set; }
         public bool IsActive { get; set; }
         public ICollection<SubCategory> SubCategories { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace OrderProcessing.Mapper.Dto.Order
 {
-    public class OrderInsertDto
+    public class InsertOrderDto
     {
         public string ProductName { get; set; }
         public int Valume { get; set; }

@@ -9,8 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Business\OrderProcessing.Order\OrderProcessing.Order.csproj" />
-    <ProjectReference Include="..\..\Business\OrderProcessing.Product\OrderProcessing.Product.csproj" />
+    <ProjectReference Include="..\..\Business\OrderProcessing.Core\OrderProcessing.Core.csproj" />
   </ItemGroup>
 
 </Project>

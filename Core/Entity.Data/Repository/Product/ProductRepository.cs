@@ -10,5 +10,10 @@ namespace Entity.Data.Repository.Product
         {
             _dbContext = dbContext;
         }
+
+        public void AddProduct(classDto )
+        {
+            Add()
+        }
     }
 }

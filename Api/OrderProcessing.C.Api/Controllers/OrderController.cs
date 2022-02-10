@@ -1,6 +1,7 @@
 ﻿using Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using OrderProcessing.Core.Attributes;
 using OrderProcessing.Mapper.Commands.Order;
 using OrderProcessing.Mapper.Dto.Order;
 using System.Threading;
@@ -18,8 +19,8 @@ namespace OrderProcessing.C.Api.Controllers
             Mediator = mediator;
         }
 
-        [HttpPost]
-        public async Task<IActionResult> Order(OrderInsertDto orderInsertDto, CancellationToken cancellationToken)
+        [HttpPost, UserAccess(role: Roles.Customer)]
+        public async Task<IActionResult> Order(InsertOrderDto orderInsertDto, CancellationToken cancellationToken)
         {
             var result = await Mediator.Send(new OrderInsertCommand(), cancellationToken);
             return Ok(new ApiResult() { Data = result, Errors = null, StatusCode = System.Net.HttpStatusCode.OK, Success = true });

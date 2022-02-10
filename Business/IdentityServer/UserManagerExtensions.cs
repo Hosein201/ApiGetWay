@@ -38,7 +38,7 @@ namespace IdentityServer
             throw new Exception("Wrong username");
         }
 
-        public static async Task<Result> GetUserFullNameAsync(this UserManager<User> userManager, int userId)
+        public static async Task<Result> GetUserFullNameAsync(this UserManager<User> userManager,Guid userId)
         {
             var user = await userManager.Users.AsNoTracking().FirstOrDefaultAsync(f => f.Id == userId);
             if (user is not null)
