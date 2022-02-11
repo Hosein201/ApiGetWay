@@ -9,4 +9,8 @@
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.14.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\OrderProcessing.Mapper\OrderProcessing.Mapper.csproj" />
+  </ItemGroup>
+
 </Project>

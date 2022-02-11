@@ -9,7 +9,6 @@
     <Folder Include="Interfaces\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Service\" />
-    <Folder Include="Queries\Handler\" />
   </ItemGroup>
 
   <ItemGroup>
