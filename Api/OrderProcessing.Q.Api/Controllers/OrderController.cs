@@ -1,6 +1,7 @@
 ﻿using Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using OrderProcessing.Core.Attributes;
 using OrderProcessing.Mapper.Queries.Order;
 using System;
 using System.Net;
@@ -20,14 +21,14 @@ namespace OrderProcessing.Q.Api.Controllers
             this.mediator = mediator;
         }
 
-        [HttpGet]
+        [HttpGet, UserAccess(role: Roles.Customer)]
         public async Task<IActionResult> Get(int take, int skip, CancellationToken cancellationToken)
         {
             var result = await mediator.Send(new GetOrdersQuery() { Skip = skip, Take = take }, cancellationToken);
             return Ok(new ApiResult() { Data = result, Errors = null, StatusCode = HttpStatusCode.OK, Success = true });
         }
 
-        [HttpGet]
+        [HttpGet, UserAccess(role: Roles.Customer)]
         public async Task<IActionResult> Get(Guid orderId, CancellationToken cancellationToken)
         {
             var result = await mediator.Send(new GetOrderByIdQuery() { OrderId = orderId }, cancellationToken);
