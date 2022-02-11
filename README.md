@@ -2,7 +2,8 @@
 
  Tools and Technology \
 C#,\
-Microservice\
+.net 5 \
+Cqrs \
 Ocelot \
 Restful\
 Fluentvalidation 
