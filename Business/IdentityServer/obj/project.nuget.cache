@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "GA6jbY+BTf4bRns1lIew7s8Ls9g0qygUBizRakGS6+akc7v7pjNqZUSXxoYjZsXUe09UJUDA/LYG00LLE1QlqQ==",
+  "dgSpecHash": "9b/iMEhxObLNLRvZ0Qs0X30dW9fhUtxHNSBomak0YrDEBfTfHFVgC2YId+np7TTBxf5WDT3OfvfAbEHBM2YtKQ==",
   "success": true,
   "projectFilePath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\IdentityServer\\IdentityServer.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Programmer\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\Programmer\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\Programmer\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Programmer\\.nuget\\packages\\elasticsearch.net\\2.4.2\\elasticsearch.net.2.4.2.nupkg.sha512",
     "C:\\Users\\Programmer\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",

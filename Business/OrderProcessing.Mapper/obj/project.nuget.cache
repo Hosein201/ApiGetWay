@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "oHM5G7z9WY5qSb6XvuWr4elgyOTayJNnXlkAspPvrTcjfRmLII14aQ+gIB1GvUNcO1YYQKhXs5OixbzTCjIVEA==",
+  "dgSpecHash": "jU7Fmp7MFXmKGMjcHYAJvzUYWCqvtUD/b4uhZfQsGltHdMAH6nma+0AwmpiVLORuxfVEm7jOvejuXnUjtzf24A==",
   "success": true,
   "projectFilePath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Mapper\\OrderProcessing.Mapper.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Programmer\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\Programmer\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\Programmer\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Programmer\\.nuget\\packages\\elasticsearch.net\\2.4.2\\elasticsearch.net.2.4.2.nupkg.sha512",
     "C:\\Users\\Programmer\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",

@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "IecI6tv4grPweKXsD9x0S4KjdETwTqJiZ2wzZWaHvBeIS4gsEkoGllUirmGPX7oHA22xTFRDc3j6SbVdsxIGMg==",
+  "dgSpecHash": "3EjF0F+qvLzOgfop/3QyUF75aji9PL7KVhRQAd2+bpYYhSuyCzlRt98RtQs5jAxgeu1LdeVaa8pbh6MVw64SAQ==",
   "success": true,
   "projectFilePath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Core\\Entity.Data\\Entity.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Programmer\\.nuget\\packages\\autofac\\6.0.0\\autofac.6.0.0.nupkg.sha512",
+    "C:\\Users\\Programmer\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.2.0\\autofac.extensions.dependencyinjection.7.2.0.nupkg.sha512",
     "C:\\Users\\Programmer\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Programmer\\.nuget\\packages\\elasticsearch.net\\2.4.2\\elasticsearch.net.2.4.2.nupkg.sha512",
     "C:\\Users\\Programmer\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
