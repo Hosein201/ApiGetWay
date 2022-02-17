@@ -6,6 +6,4 @@ C#,\
 Cqrs \
 Ocelot \
 Restful\
-Fluentvalidation \
-
-OmidChange
+Fluentvalidation
