@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FIjfE0JEnQMwHImc7RhgQrkEMOSCb4n2zPNviwOaYCM=",
+  "Source": "OrderProcessing.C.Api",
+  "BasePath": "_content/OrderProcessing.C.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

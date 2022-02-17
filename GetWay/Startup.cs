@@ -9,6 +9,7 @@ using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using OrderProcessing.Infrastructure.Extensions;
 using AutoMapper;
+using Serilog;
 
 namespace OrderProcessing
 {
@@ -56,6 +57,7 @@ namespace OrderProcessing
             app.UseAuthentication();
             app.UseAuthorization();
             app.UseOcelot();
+            app.UseSerilogRequestLogging();
 
             app.UseEndpoints(endpoints =>
             {

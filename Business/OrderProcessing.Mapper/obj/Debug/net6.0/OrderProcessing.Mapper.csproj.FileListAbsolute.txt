@@ -1,0 +1,15 @@
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\bin\Debug\net6.0\OrderProcessing.Mapper.deps.json
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\bin\Debug\net6.0\OrderProcessing.Mapper.dll
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\bin\Debug\net6.0\OrderProcessing.Mapper.pdb
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\bin\Debug\net6.0\Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\bin\Debug\net6.0\Infrastructure.pdb
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\obj\Debug\net6.0\OrderProcessing.Mapper.csproj.AssemblyReference.cache
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\obj\Debug\net6.0\OrderProcessing.Mapper.GeneratedMSBuildEditorConfig.editorconfig
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\obj\Debug\net6.0\OrderProcessing.Mapper.AssemblyInfoInputs.cache
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\obj\Debug\net6.0\OrderProcessing.Mapper.AssemblyInfo.cs
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\obj\Debug\net6.0\OrderProcessing.Mapper.csproj.CoreCompileInputs.cache
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\obj\Debug\net6.0\OrderProcessing.Mapper.csproj.CopyComplete
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\obj\Debug\net6.0\OrderProcessing.Mapper.dll
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\obj\Debug\net6.0\refint\OrderProcessing.Mapper.dll
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\obj\Debug\net6.0\OrderProcessing.Mapper.pdb
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Mapper\obj\Debug\net6.0\ref\OrderProcessing.Mapper.dll

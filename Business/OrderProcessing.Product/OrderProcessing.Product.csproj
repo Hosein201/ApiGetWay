@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OrderProcessing.Mapper\OrderProcessing.Mapper.csproj" />
+    <ProjectReference Include="..\..\Core\Entity.Data\Entity.Data.csproj" />
   </ItemGroup>
 
 </Project>

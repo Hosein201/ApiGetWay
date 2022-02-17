@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rkBRH8w7HdVqyGR4C7bDTU2l0CG+nziXgN62Cb4JkVg=",
+  "Source": "OrderProcessing.Q.Api",
+  "BasePath": "_content/OrderProcessing.Q.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

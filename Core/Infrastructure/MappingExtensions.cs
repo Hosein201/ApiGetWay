@@ -2,7 +2,7 @@
 
 namespace Infrastructure
 {
-    public static class MappingExtensions
+    public static class Mapping
     {
         public static TDestination MapTo<TSource, TDestination>(this TSource source)
         {
