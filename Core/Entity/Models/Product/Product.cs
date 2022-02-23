@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Entity.Models.Product
+namespace Entity.Models
 {
     public class Product : IEntity
     {

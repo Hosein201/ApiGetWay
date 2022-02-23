@@ -17,6 +17,6 @@ namespace Entity.Models
         public DateTime RegisterDate { get; set; }
 
         public ICollection<UserRoles> UserRoles { get; set; }
-        public ICollection<Order.Order> Orders { get; set; }
+        public ICollection<Order> Orders { get; set; }
     }
 }

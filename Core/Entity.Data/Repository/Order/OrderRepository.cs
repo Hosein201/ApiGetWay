@@ -3,10 +3,11 @@ using OrderProcessing.Mapper.Dto.Order;
 using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using Entity.Models;
 
-namespace Entity.Data.Repository.Order
+namespace Entity.Data.Repository
 {
-    public class OrderRepository : Repository<Models.Order.Order>, IOrderRepository
+    public class OrderRepository : Repository<Order>, IOrderRepository
     {
         private readonly AppDbContext _dbContext;
 
@@ -16,12 +17,12 @@ namespace Entity.Data.Repository.Order
             this._dbContext = dbContext;
         }
 
-        public async Task<ResponseOrderDto> InsertOrder(InsertOrderDto dto, CancellationToken cancellationToken)
+        public async Task<ResponseOrderDto> InsertOrder(Order model, CancellationToken cancellationToken)
         {
             return await Task.FromResult(new ResponseOrderDto());
         }
 
-        public async Task<List<ResponseOrderDto>> InsertOrders(List<InsertOrderDto> dtos ,CancellationToken cancellationToken)
+        public async Task<List<ResponseOrderDto>> InsertOrders(List<Order> models ,CancellationToken cancellationToken)
         {
             return await Task.FromResult(new List<ResponseOrderDto>());
         }

@@ -1,8 +1,9 @@
 ﻿using Entity.Data.Interface;
+using Entity.Models;
 
-namespace Entity.Data.Repository.Order
+namespace Entity.Data.Repository
 {
-    public class ReceiveOrderRepository : Repository<Models.Order.ReceiveOrder>, IReceiveOrderRepository
+    public class ReceiveOrderRepository : Repository<ReceiveOrder>, IReceiveOrderRepository
     {
         private readonly AppDbContext _dbContext;
 

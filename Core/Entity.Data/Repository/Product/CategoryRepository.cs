@@ -1,8 +1,9 @@
 ﻿using Entity.Data.Interface;
+using Entity.Models;
 
-namespace Entity.Data.Repository.Product
+namespace Entity.Data.Repository
 {
-    public class CategoryRepository : Repository<Models.Product.Category>, ICategoryRepository
+    public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
         private readonly AppDbContext _dbContext;
         public CategoryRepository(AppDbContext dbContext) 

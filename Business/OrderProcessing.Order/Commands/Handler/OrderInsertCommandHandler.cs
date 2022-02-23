@@ -1,5 +1,4 @@
 ﻿using Entity.Data.Interface;
-using Infrastructure;
 using MediatR;
 using OrderProcessing.Mapper.Commands.Order;
 using OrderProcessing.Mapper.Dto.Order;
@@ -21,8 +20,7 @@ namespace OrderProcessing.Order.Commands.Handler
         public async Task<ResponseOrderDto> Handle(OrderInsertCommand request, CancellationToken cancellationToken)
         {
             //Map command to dto 
-            var dto = Mapping.MapTo<OrderInsertCommand, InsertOrderDto>(request);
-            await _dataAccess.OrderAccess.InsertOrder(dto, cancellationToken);
+            await _dataAccess.OrderAccess.InsertOrder(new Entity.Models.Order(), cancellationToken);
             await _dataAccess.SaveChangesAsync(cancellationToken);
             // save entity 
             // insert to nosql with event or other event

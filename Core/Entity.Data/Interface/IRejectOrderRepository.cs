@@ -1,6 +1,8 @@
-﻿namespace Entity.Data.Interface
+﻿using Entity.Models;
+
+namespace Entity.Data.Interface
 {
-    public interface IRejectOrderRepository : IRepository<Models.Order.RejectOrder>
+    public interface IRejectOrderRepository : IRepository<RejectOrder>
     {
     }
 }

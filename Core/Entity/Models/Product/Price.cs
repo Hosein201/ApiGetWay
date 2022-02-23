@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Entity.Models.Product
+namespace Entity.Models
 {
     public class Price : IEntity
     {

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace OrderProcessing.Mapper.Commands.Permission
 {
-    public class InsertPermissionCommand : IRequest
+    public class PermissionInsertCommand : IRequest
     {
         public List<InsertPermissionDto> Permissions { get; set; }
     }

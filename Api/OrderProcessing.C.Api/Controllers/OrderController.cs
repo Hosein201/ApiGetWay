@@ -20,9 +20,10 @@ namespace OrderProcessing.C.Api.Controllers
         }
 
         [HttpPost, UserAccess(role: Roles.Customer)]
-        public async Task<IActionResult> Order(InsertOrderDto orderInsertDto, CancellationToken cancellationToken)
+        public async Task<IActionResult> Post(InsertOrderDto orderInsertDto, CancellationToken cancellationToken)
         {
-            var result = await Mediator.Send(new OrderInsertCommand(), cancellationToken);
+            var command = Mapping.MapTo<InsertOrderDto, OrderInsertCommand>(orderInsertDto);
+            var result = await Mediator.Send(command, cancellationToken);
             return Ok(new ApiResult() { Data = result, Errors = null, StatusCode = System.Net.HttpStatusCode.OK, Success = true });
         }
     }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Entity.Models.Order
+namespace Entity.Models
 {
     public class RejectOrder : IEntity
     {
