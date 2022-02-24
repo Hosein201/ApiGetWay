@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Entity.Configurations.Product
 {
-    public class ProductEntityTypeConfiguration : IEntityTypeConfiguration<Models.Product.Product>
+    public class ProductEntityTypeConfiguration : IEntityTypeConfiguration<Models.Product>
     {
-        public void Configure(EntityTypeBuilder<Models.Product.Product> builder)
+        public void Configure(EntityTypeBuilder<Models.Product> builder)
         {
             builder.ToTable("Products", "Pro");
             builder.HasKey(h => h.Id);

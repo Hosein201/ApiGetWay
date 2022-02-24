@@ -10,3 +10,6 @@ E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Cacheing\obj\Debug\net6.0
 E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Cacheing\obj\Debug\net6.0\refint\OrderProcessing.Cacheing.dll
 E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Cacheing\obj\Debug\net6.0\OrderProcessing.Cacheing.pdb
 E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Cacheing\obj\Debug\net6.0\ref\OrderProcessing.Cacheing.dll
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Cacheing\bin\Debug\net6.0\Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Cacheing\bin\Debug\net6.0\Infrastructure.pdb
+E:\githup\ApiGetWay\ApiGetWay\Business\OrderProcessing.Cacheing\obj\Debug\net6.0\OrderProcessing.Cacheing.csproj.CopyComplete

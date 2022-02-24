@@ -18,7 +18,7 @@ namespace OrderProcessing.Product.Commands.Handler
 
         public async Task<ResponseProductDto> Handle(ProductInsertCommand request, CancellationToken cancellationToken)
         {
-            return await dataAccess.ProductAccess.AddProduct(new Entity.Models.Product.Product
+            return await dataAccess.ProductAccess.AddProduct(new Entity.Models.Product
             {
 
             }, cancellationToken);

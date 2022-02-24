@@ -1,6 +1,4 @@
 ﻿using Entity.Data.Interface;
-using Entity.Data.Repository.Order;
-using Entity.Data.Repository.Product;
 using System.Threading;
 using System.Threading.Tasks;
 

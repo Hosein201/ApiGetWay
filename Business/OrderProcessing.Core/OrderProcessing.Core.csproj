@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Configuration\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\OrderProcessing.Order\OrderProcessing.Order.csproj" />
     <ProjectReference Include="..\OrderProcessing.Permission\OrderProcessing.Permission.csproj" />
     <ProjectReference Include="..\OrderProcessing.Product\OrderProcessing.Product.csproj" />
