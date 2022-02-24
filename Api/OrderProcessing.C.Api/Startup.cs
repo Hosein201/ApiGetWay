@@ -1,3 +1,4 @@
+using Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -12,9 +13,16 @@ namespace OrderProcessing.C.Api
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        private readonly AppSetting appSetting;
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Configuration = configuration;
+            appSetting = Configuration.GetSection(nameof(AppSetting)).Get<AppSetting>();
+            var builder = new ConfigurationBuilder()
+               .SetBasePath(env.ContentRootPath)
+               .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+               .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
+               .AddEnvironmentVariables().Build();
         }
 
         public IConfiguration Configuration { get; }
@@ -28,7 +36,7 @@ namespace OrderProcessing.C.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "OrderProcessing.C.Api", Version = "v1" });
             });
-            return services.BuildServiceProviderWithAutoFac();
+            return services.BuildServiceProviderWithAutoFac(appSetting);
 
         }
 

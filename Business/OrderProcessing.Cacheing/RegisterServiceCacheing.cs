@@ -11,6 +11,18 @@ namespace OrderProcessing.Cacheing
         /// <returns></returns>
         public static IServiceCollection AddServiceCacheing(this IServiceCollection services)
         {
+            #region AddScopedService
+
+            #endregion
+
+            #region AddTransientService
+
+            #endregion
+
+            #region AddSingletonService
+
+            #endregion
+
             return services;
         }
     }

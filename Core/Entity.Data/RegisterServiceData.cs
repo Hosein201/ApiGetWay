@@ -1,5 +1,6 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using System.Reflection;
+﻿using Infrastructure;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Entity.Data
 {
@@ -25,6 +26,14 @@ namespace Entity.Data
             #endregion
 
             return services;
+        }
+
+        public static void ConfigDbContext(this IServiceCollection services, ConnectionString connectionString)
+        {
+            services.AddDbContext<AppDbContext>(option =>
+            {
+                option.UseSqlServer(connectionString.Value);
+            });
         }
     }
 }

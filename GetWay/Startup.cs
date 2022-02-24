@@ -10,6 +10,7 @@ using Ocelot.Middleware;
 using OrderProcessing.Infrastructure.Extensions;
 using AutoMapper;
 using Serilog;
+using Entity.Data;
 
 namespace OrderProcessing
 {
@@ -39,7 +40,7 @@ namespace OrderProcessing
             services.AddOcelot(Configuration);
             services.AddCustomeAuthentication(settingGetWay.JwtSettings);
             services.AddCustomeIdentity(settingGetWay.IdentitySettings);
-            services.AddSingletonConfig();
+            services.AddLoggerConfig();
             services.AddControllers()
                 .AddNewtonsoftJson(option => option.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddTransientService();

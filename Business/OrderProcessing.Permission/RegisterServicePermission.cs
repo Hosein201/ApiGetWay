@@ -11,6 +11,18 @@ namespace OrderProcessing.Permission
         /// <returns></returns>
         public static IServiceCollection AddServicePermission(this IServiceCollection services)
         {
+            #region AddScopedService
+
+            #endregion
+
+            #region AddTransientService
+
+            #endregion
+
+            #region AddSingletonService
+
+            #endregion
+
             return services;
         }
     }

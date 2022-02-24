@@ -11,6 +11,18 @@ namespace OrderProcessing.Product
         /// <returns></returns>
         public static IServiceCollection AddServiceProduct(this IServiceCollection services)
         {
+            #region AddScopedService
+
+            #endregion
+
+            #region AddTransientService
+
+            #endregion
+
+            #region AddSingletonService
+
+            #endregion
+
             return services;
         }
     }
