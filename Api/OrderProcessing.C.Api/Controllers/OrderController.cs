@@ -19,7 +19,7 @@ namespace OrderProcessing.C.Api.Controllers
             Mediator = mediator;
         }
 
-        [HttpPost, UserAccess(role: Roles.Customer)]
+        [HttpPost, UserAccess(role: Roles.Customer, active: true)]
         public async Task<IActionResult> Post(InsertOrderDto orderInsertDto, CancellationToken cancellationToken)
         {
             var command = Mapping.MapTo<InsertOrderDto, OrderInsertCommand>(orderInsertDto);

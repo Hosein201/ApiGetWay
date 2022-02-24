@@ -9,9 +9,6 @@ namespace Entity.Configurations.Order
         {
             builder.ToTable("RejectOrder", "order");
             builder.HasKey(h => h.Id);
-            builder.Property(p => p.ProductName).IsRequired(true);
-            builder.Property(p => p.WriterName).IsRequired(true);
-            builder.Property(p => p.RejectTime).IsRequired(true);
         }
     }
 }

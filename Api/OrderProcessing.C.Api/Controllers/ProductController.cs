@@ -21,8 +21,8 @@ namespace OrderProcessing.C.Api.Controllers
             Mediator = mediator;
         }
 
-        [HttpPost, UserAccess(role: Roles.Customer)]
-        public async Task<IActionResult> Post(ProductInsertDto dto ,CancellationToken cancellationToken)
+        [HttpPost, UserAccess(role: Roles.Customer, active: true)]
+        public async Task<IActionResult> Post(ProductInsertDto dto, CancellationToken cancellationToken)
         {
             var commmand = Mapping.MapTo<ProductInsertDto, ProductInsertCommand>(dto);
             var result = await Mediator.Send(commmand, cancellationToken);

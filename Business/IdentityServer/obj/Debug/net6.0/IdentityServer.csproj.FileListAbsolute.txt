@@ -1,8 +1,3 @@
-E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.csproj.AssemblyReference.cache
-E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
-E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.AssemblyInfoInputs.cache
-E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.AssemblyInfo.cs
-E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.csproj.CoreCompileInputs.cache
 E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\bin\Debug\net6.0\IdentityServer.deps.json
 E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\bin\Debug\net6.0\IdentityServer.dll
 E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\bin\Debug\net6.0\IdentityServer.pdb
@@ -14,6 +9,11 @@ E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\bin\Debug\net6.0\Entity.Da
 E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\bin\Debug\net6.0\Entity.pdb
 E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\bin\Debug\net6.0\Infrastructure.pdb
 E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\bin\Debug\net6.0\OrderProcessing.Mapper.pdb
+E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.csproj.AssemblyReference.cache
+E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
+E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.AssemblyInfoInputs.cache
+E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.AssemblyInfo.cs
+E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.csproj.CoreCompileInputs.cache
 E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.csproj.CopyComplete
 E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\IdentityServer.dll
 E:\githup\ApiGetWay\ApiGetWay\Business\IdentityServer\obj\Debug\net6.0\refint\IdentityServer.dll

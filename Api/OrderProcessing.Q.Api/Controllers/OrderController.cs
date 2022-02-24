@@ -21,14 +21,14 @@ namespace OrderProcessing.Q.Api.Controllers
             this.mediator = mediator;
         }
 
-        [HttpGet, UserAccess(role: Roles.Customer)]
+        [HttpGet, UserAccess(role: Roles.Customer, active: true)]
         public async Task<IActionResult> Get(int take, int skip, CancellationToken cancellationToken)
         {
             var result = await mediator.Send(new GetOrdersQuery() { Skip = skip, Take = take }, cancellationToken);
             return Ok(new ApiResult() { Data = result, Errors = null, StatusCode = HttpStatusCode.OK, Success = true });
         }
 
-        [HttpGet, UserAccess(role: Roles.Customer)]
+        [HttpGet, UserAccess(role: Roles.Customer, active: true)]
         public async Task<IActionResult> Get(Guid orderId, CancellationToken cancellationToken)
         {
             var result = await mediator.Send(new GetOrderByIdQuery() { OrderId = orderId }, cancellationToken);

@@ -4851,8 +4851,8 @@
     },
     "OrderProcessing.Mapper/1.0.0": {
       "type": "project",
-      "path": "../OrderProcessing.Mapper/OrderProcessing.Mapper.csproj",
-      "msbuildProject": "../OrderProcessing.Mapper/OrderProcessing.Mapper.csproj"
+      "path": "../../Core/OrderProcessing.Mapper/OrderProcessing.Mapper.csproj",
+      "msbuildProject": "../../Core/OrderProcessing.Mapper/OrderProcessing.Mapper.csproj"
     }
   },
   "projectFileDependencyGroups": {

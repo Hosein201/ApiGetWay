@@ -4832,8 +4832,8 @@
     },
     "OrderProcessing.Mapper/1.0.0": {
       "type": "project",
-      "path": "../../Business/OrderProcessing.Mapper/OrderProcessing.Mapper.csproj",
-      "msbuildProject": "../../Business/OrderProcessing.Mapper/OrderProcessing.Mapper.csproj"
+      "path": "../OrderProcessing.Mapper/OrderProcessing.Mapper.csproj",
+      "msbuildProject": "../OrderProcessing.Mapper/OrderProcessing.Mapper.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4870,11 +4870,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Mapper\\OrderProcessing.Mapper.csproj": {
-              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Mapper\\OrderProcessing.Mapper.csproj"
-            },
             "E:\\githup\\ApiGetWay\\ApiGetWay\\Core\\Entity\\Entity.csproj": {
               "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Core\\Entity\\Entity.csproj"
+            },
+            "E:\\githup\\ApiGetWay\\ApiGetWay\\Core\\OrderProcessing.Mapper\\OrderProcessing.Mapper.csproj": {
+              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Core\\OrderProcessing.Mapper\\OrderProcessing.Mapper.csproj"
             }
           }
         }

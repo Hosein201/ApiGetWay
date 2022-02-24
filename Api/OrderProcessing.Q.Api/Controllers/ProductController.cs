@@ -21,6 +21,7 @@ namespace OrderProcessing.Q.Api.Controllers
             Mediator = mediator;
         }
 
+        [HttpGet, UserAccess(role: Roles.Customer, active: true)]
         public async Task<IActionResult> Get(int take, int skip, CancellationToken cancellationToken)
         {
 
@@ -28,7 +29,7 @@ namespace OrderProcessing.Q.Api.Controllers
             return Ok(new ApiResult() { Data = result, Errors = null, StatusCode = HttpStatusCode.OK, Success = true });
         }
 
-        [HttpGet, UserAccess(role: Roles.Customer)]
+        [HttpGet, UserAccess(role: Roles.Customer ,active:true)]
         public async Task<IActionResult> Get(Guid productId, CancellationToken cancellationToken)
         {
             var result = await Mediator.Send(new GetProdcutByIdQuery() { ProductId = productId }, cancellationToken);

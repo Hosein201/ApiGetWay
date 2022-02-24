@@ -21,6 +21,7 @@ namespace Entity.Data.Repository
         public IReceiveOrderRepository ReceiveOrderAccess { get; set; }
         #endregion
 
+        public IPermissionRepository PermissionAccess { get; set; }
 
         public DataAccess(AppDbContext dbContext)
         {
@@ -32,6 +33,7 @@ namespace Entity.Data.Repository
             this.OrderAccess = new OrderRepository(_dbContext);
             this.RejectOrderAccess = new RejectOrderRepository(_dbContext);
             this.ReceiveOrderAccess = new ReceiveOrderRepository(_dbContext);
+            this.PermissionAccess = new PermissionRepository(_dbContext);
         }
 
 

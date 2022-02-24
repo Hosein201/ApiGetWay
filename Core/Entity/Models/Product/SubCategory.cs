@@ -16,7 +16,10 @@ namespace Entity.Models
         public int Code { get; set; }
         public DateTime CreateDateTime { get; set; }
         public bool IsActive { get; set; }
+
+        #region Reletions
         public Category Category { get; set; }
         public ICollection<Product> Products { get; set; }
+        #endregion
     }
 }

@@ -12,10 +12,9 @@ namespace Entity.Models
 
         public Guid Id { get; set; }
         public DateTime CreateDateTime { get; set; }
-        public string ProductName { get; set; }
-        public int Valume { get; set; }
-        public DateTime RejectTime { get; set; }
-        public string WriterName { get; set; }
+
+        #region Reletions
         public Order Order { get; set; }
+        #endregion
     }
 }
