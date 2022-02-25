@@ -1,11 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\Handler\" />
     <Folder Include="Events\Handler\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Interfaces\" />
@@ -14,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\OrderProcessing.Mapper\OrderProcessing.Mapper.csproj" />
+    <ProjectReference Include="..\..\Core\Entity.Data\Entity.Data.csproj" />
   </ItemGroup>
 
 </Project>

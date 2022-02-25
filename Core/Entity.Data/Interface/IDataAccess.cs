@@ -18,6 +18,8 @@ namespace Entity.Data.Interface
         IReceiveOrderRepository ReceiveOrderAccess { get; set; }
         #endregion
 
+        IPermissionRepository PermissionAccess { get; set; }
+
         void SaveChanges();
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }

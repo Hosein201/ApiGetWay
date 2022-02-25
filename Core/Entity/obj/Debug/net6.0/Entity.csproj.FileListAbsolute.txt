@@ -1,0 +1,15 @@
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\bin\Debug\net6.0\Entity.deps.json
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\bin\Debug\net6.0\Entity.dll
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\bin\Debug\net6.0\Entity.pdb
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\bin\Debug\net6.0\Infrastructure.dll
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\bin\Debug\net6.0\Infrastructure.pdb
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\obj\Debug\net6.0\Entity.csproj.AssemblyReference.cache
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\obj\Debug\net6.0\Entity.GeneratedMSBuildEditorConfig.editorconfig
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\obj\Debug\net6.0\Entity.AssemblyInfoInputs.cache
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\obj\Debug\net6.0\Entity.AssemblyInfo.cs
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\obj\Debug\net6.0\Entity.csproj.CoreCompileInputs.cache
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\obj\Debug\net6.0\Entity.csproj.CopyComplete
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\obj\Debug\net6.0\Entity.dll
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\obj\Debug\net6.0\refint\Entity.dll
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\obj\Debug\net6.0\Entity.pdb
+E:\githup\ApiGetWay\ApiGetWay\Core\Entity\obj\Debug\net6.0\ref\Entity.dll

@@ -1,6 +1,8 @@
-﻿namespace Entity.Data.Interface
+﻿using Entity.Models;
+
+namespace Entity.Data.Interface
 {
-    public interface IPriceRepository : IRepository<Models.Product.Price>
+    public interface IPriceRepository : IRepository<Price>
     {
     }
 }

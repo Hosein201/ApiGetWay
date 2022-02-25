@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5TEz0C1ZwFyuJu/PFFmCntjgHbsTJ9zzPi1AHd/7ivY=",
+  "Source": "OrderProcessing",
+  "BasePath": "_content/OrderProcessing",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

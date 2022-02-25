@@ -9,14 +9,6 @@ namespace OrderProcessing.Infrastructure.Extensions
 {
     public static class ExtensionsConfigServices
     {
-        public static void ConfigDbContext(this IServiceCollection services, ConnectionString connectionString)
-        {
-            services.AddDbContext<AppDbContext>(option =>
-            {
-                option.UseSqlServer(connectionString.Value);
-            });
-        }
-
         public static void AddScopedService(this IServiceCollection services)
         {
             services.AddScoped(typeof(IJwtService), typeof(JwtService));

@@ -65,7 +65,7 @@ namespace OrderProcessing.Core.Middlewares
             }
 
             InsertPermissionCommand command = new() { Permissions = dtos };
-            Task.Run(() => mediatR.Send(command));
+            Task.WhenAll(mediatR.Send(command));
             return null;
         }
     }

@@ -1,6 +1,8 @@
-﻿namespace Entity.Data.Interface
+﻿using Entity.Models;
+
+namespace Entity.Data.Interface
 {
-    public interface ICategoryRepository : IRepository<Models.Product.Category>
+    public interface ICategoryRepository : IRepository<Category>
     {
     }
 }

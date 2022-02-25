@@ -7,11 +7,12 @@ namespace OrderProcessing
 {
     public class Program
     {
-        public static ILogger logger;
 
         public static void Main(string[] args)
         {
-            logger = new LoggerConfiguration().CreateLogger();
+            Log.Logger = new LoggerConfiguration()
+                        .WriteTo.Console()
+                        .CreateBootstrapLogger();
             try
             {
                 CreateHostBuilder(args).Build().Run();
@@ -19,7 +20,7 @@ namespace OrderProcessing
             }
             catch (Exception ex)
             {
-                logger.Write(Serilog.Events.LogEventLevel.Verbose, "can not start app orderProcessing", ex);
+                Log.Write(Serilog.Events.LogEventLevel.Verbose, "can not start app orderProcessing", ex);
 
                 throw;
             }
@@ -34,9 +35,12 @@ namespace OrderProcessing
             return Host.CreateDefaultBuilder(args)
                        .ConfigureWebHostDefaults(webBuilder =>
                        {
-                           webBuilder.UseStartup<Startup>()
-                            .UseSerilog(logger);
-                       });
+                           webBuilder.UseStartup<Startup>();
+
+                       })
+                       .UseSerilog((ctx, lc) => lc
+                          .WriteTo.Console()
+                          .ReadFrom.Configuration(ctx.Configuration)); 
         }
     }
 }

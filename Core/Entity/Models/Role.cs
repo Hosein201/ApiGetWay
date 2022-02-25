@@ -7,6 +7,9 @@ namespace Entity.Models
     public class Role : IdentityRole<Guid> , IEntity
     {
         public int Code { get; set; }
+
+        #region Reletions
         public ICollection<UserRoles> UserRoles { get; set; }
+        #endregion
     }
 }

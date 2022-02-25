@@ -36,7 +36,7 @@ namespace IdentityServer.UserManager
             var result = await UserManager.FinadUserForRegsiterAsync(dto.UserName, dto.Phone, dto.Email);
             if (result.Success)
             {
-                var destination = MappingExtensions.MapTo<RegsiterDto, User>(dto);
+                var destination = Mapping.MapTo<RegsiterDto, User>(dto);
                 var user = await UserManager.CreateAsync(destination);
                 if (user.Succeeded)
                     return await JwtService.GenerateAsync(destination);

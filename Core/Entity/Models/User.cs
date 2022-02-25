@@ -16,7 +16,9 @@ namespace Entity.Models
         public bool IsActive { get; set; }
         public DateTime RegisterDate { get; set; }
 
+        #region MyRegion
         public ICollection<UserRoles> UserRoles { get; set; }
-        public ICollection<Order.Order> Orders { get; set; }
+        public ICollection<Order> Orders { get; set; }
+        #endregion
     }
 }
