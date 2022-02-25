@@ -6,8 +6,4 @@ C#,\
 Cqrs \
 Ocelot \
 Restful\
-<<<<<<< HEAD
 Fluentvalidation
-=======
-Fluentvalidation
->>>>>>> developing
