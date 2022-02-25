@@ -8,7 +8,6 @@
     <Folder Include="Events\Handler\" />
     <Folder Include="Infrastructure\" />
     <Folder Include="Interfaces\" />
-    <Folder Include="Queries\Handler\" />
     <Folder Include="Service\" />
   </ItemGroup>
 

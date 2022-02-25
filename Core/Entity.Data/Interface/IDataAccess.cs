@@ -20,7 +20,6 @@ namespace Entity.Data.Interface
 
         IPermissionRepository PermissionAccess { get; set; }
 
-
         void SaveChanges();
         Task<int> SaveChangesAsync(CancellationToken cancellationToken);
     }

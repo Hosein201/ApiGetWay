@@ -5,6 +5,7 @@ using Infrastructure;
 using Microsoft.Extensions.DependencyInjection;
 using OrderProcessing.Order;
 using OrderProcessing.Permission;
+using OrderProcessing.Product;
 using System;
 using System.Linq;
 
@@ -21,6 +22,7 @@ namespace OrderProcessing.Core.Configuration
             services.AddServiceData();
             services.AddServicePermission();
             services.AddServiceOrder();
+            services.AddServiceProduct();
             //services.AddServiceCacheing();
 
             containerBuilder.Populate(services.Select(s => s).Distinct());
