@@ -15,14 +15,14 @@ namespace OrderProcessing.Permission.Commands.Handler
             this.dataAccess = dataAccess;
         }
 
-        public Task<Unit> Handle(UpdatePermissionCommand request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(UpdatePermissionCommand request, CancellationToken cancellationToken)
         {
             dataAccess.PermissionAccess.UpdatePermission(request.Id, request.ControllerName, request.ActionName, request.RoleName);
-            dataAccess.SaveChangesAsync(cancellationToken);
+           await dataAccess.SaveChangesAsync(cancellationToken);
 
             //TODO : update caching
 
-            return null;
+            return Unit.Value;
         }
     }
 }

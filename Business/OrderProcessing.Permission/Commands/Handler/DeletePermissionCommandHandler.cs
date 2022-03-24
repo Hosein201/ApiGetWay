@@ -15,14 +15,14 @@ namespace OrderProcessing.Permission.Commands.Handler
             this.dataAccess = dataAccess;
         }
 
-        public Task<Unit> Handle(DeletePermissionCommand request, CancellationToken cancellationToken)
+        public async Task<Unit> Handle(DeletePermissionCommand request, CancellationToken cancellationToken)
         {
             dataAccess.PermissionAccess.DeletePermission(request.Id, request.ControllerName, request.ActionName, request.RoleName);
-            dataAccess.SaveChangesAsync(cancellationToken);
+           await dataAccess.SaveChangesAsync(cancellationToken);
 
             //TODO : delete  caching
 
-            return null;
+            return Unit.Value;
         }
     }
 }

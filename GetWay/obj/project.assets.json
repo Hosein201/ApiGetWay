@@ -1673,8 +1673,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Entity.Data": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.2",
+          "OrderProcessing.Permission": "1.0.0",
           "System.IdentityModel.Tokens.Jwt": "6.15.1"
         },
         "compile": {
@@ -1716,6 +1716,19 @@
         },
         "runtime": {
           "bin/placeholder/OrderProcessing.Mapper.dll": {}
+        }
+      },
+      "OrderProcessing.Permission/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Entity.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderProcessing.Permission.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.Permission.dll": {}
         }
       }
     }
@@ -5163,6 +5176,11 @@
       "type": "project",
       "path": "../Core/OrderProcessing.Mapper/OrderProcessing.Mapper.csproj",
       "msbuildProject": "../Core/OrderProcessing.Mapper/OrderProcessing.Mapper.csproj"
+    },
+    "OrderProcessing.Permission/1.0.0": {
+      "type": "project",
+      "path": "../Business/OrderProcessing.Permission/OrderProcessing.Permission.csproj",
+      "msbuildProject": "../Business/OrderProcessing.Permission/OrderProcessing.Permission.csproj"
     }
   },
   "projectFileDependencyGroups": {

@@ -1600,6 +1600,19 @@
         "runtime": {
           "bin/placeholder/OrderProcessing.Mapper.dll": {}
         }
+      },
+      "OrderProcessing.Permission/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Entity.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/OrderProcessing.Permission.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/OrderProcessing.Permission.dll": {}
+        }
       }
     }
   },
@@ -4895,12 +4908,17 @@
       "type": "project",
       "path": "../../Core/OrderProcessing.Mapper/OrderProcessing.Mapper.csproj",
       "msbuildProject": "../../Core/OrderProcessing.Mapper/OrderProcessing.Mapper.csproj"
+    },
+    "OrderProcessing.Permission/1.0.0": {
+      "type": "project",
+      "path": "../OrderProcessing.Permission/OrderProcessing.Permission.csproj",
+      "msbuildProject": "../OrderProcessing.Permission/OrderProcessing.Permission.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Entity.Data >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.2",
+      "OrderProcessing.Permission >= 1.0.0",
       "System.IdentityModel.Tokens.Jwt >= 6.15.1"
     ]
   },
@@ -4932,8 +4950,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\githup\\ApiGetWay\\ApiGetWay\\Core\\Entity.Data\\Entity.Data.csproj": {
-              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Core\\Entity.Data\\Entity.Data.csproj"
+            "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Permission\\OrderProcessing.Permission.csproj": {
+              "projectPath": "E:\\githup\\ApiGetWay\\ApiGetWay\\Business\\OrderProcessing.Permission\\OrderProcessing.Permission.csproj"
             }
           }
         }

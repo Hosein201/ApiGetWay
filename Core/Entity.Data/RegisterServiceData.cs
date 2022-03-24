@@ -14,14 +14,24 @@ namespace Entity.Data
         public static IServiceCollection AddServiceData(this IServiceCollection services)
         {
             #region AddScopedService
+            var scopedServices = ServiceCollectionCustome.GetScopedService(typeof(RegisterServiceData));
 
+            foreach (var service in scopedServices)
+                services.AddScoped(service.InterFaceType, service.ClassType);
             #endregion
 
             #region AddTransientService
+            var transientServices = ServiceCollectionCustome.GetTransientService(typeof(RegisterServiceData));
 
+            foreach (var service in transientServices)
+                services.AddTransient(service.InterFaceType, service.ClassType);
             #endregion
 
             #region AddSingletonService
+            var singletonServices = ServiceCollectionCustome.GetSingletonService(typeof(RegisterServiceData));
+
+            foreach (var service in singletonServices)
+                services.AddSingleton(service.InterFaceType, service.ClassType);
 
             #endregion
 

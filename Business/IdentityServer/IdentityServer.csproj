@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Core\Entity.Data\Entity.Data.csproj" />
+    <ProjectReference Include="..\OrderProcessing.Permission\OrderProcessing.Permission.csproj" />
   </ItemGroup>
 
 </Project>

@@ -50,6 +50,7 @@ namespace Entity.Data.Repository
 
         public async Task AddPermissions(List<Models.Permission> models, CancellationToken cancellationToken)
         {
+            //ToDo: remove permission
             await AddRangeAsync(models, cancellationToken);
         }
 

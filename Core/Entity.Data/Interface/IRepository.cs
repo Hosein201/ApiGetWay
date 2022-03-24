@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Threading;
@@ -6,7 +7,8 @@ using System.Threading.Tasks;
 
 namespace Entity.Data.Interface
 {
-    public interface IRepository<TEntity> where TEntity : class
+    public interface IRepository<TEntity> : ISingletonDependency
+        where TEntity : class
     {
         void Add(TEntity entity);
         Task AddAsync(TEntity entity, CancellationToken cancellationToken);

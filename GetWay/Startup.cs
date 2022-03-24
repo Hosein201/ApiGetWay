@@ -1,16 +1,15 @@
+using Entity.Data;
 using Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 using OrderProcessing.Infrastructure.Extensions;
-using AutoMapper;
+using OrderProcessing.Permission;
 using Serilog;
-using Entity.Data;
 
 namespace OrderProcessing
 {
@@ -27,7 +26,7 @@ namespace OrderProcessing
                .SetBasePath(env.ContentRootPath)
                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
                .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
-               .AddJsonFile("Ocelot.json",optional:false,reloadOnChange:true)
+               .AddJsonFile("Ocelot.json", optional: false, reloadOnChange: true)
                .AddEnvironmentVariables().Build();
         }
 
@@ -44,6 +43,8 @@ namespace OrderProcessing
             services.AddControllers()
                 .AddNewtonsoftJson(option => option.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddTransientService();
+            services.AddServicePermission();
+            services.AddServiceData();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -59,14 +60,6 @@ namespace OrderProcessing
             app.UseAuthorization();
             app.UseOcelot();
             app.UseSerilogRequestLogging();
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
         }
     }
 }

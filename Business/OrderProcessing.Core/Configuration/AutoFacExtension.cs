@@ -23,6 +23,7 @@ namespace OrderProcessing.Core.Configuration
             services.AddServicePermission();
             services.AddServiceOrder();
             services.AddServiceProduct();
+            services.AddServiceCore();
             //services.AddServiceCacheing();
 
             containerBuilder.Populate(services.Select(s => s).Distinct());

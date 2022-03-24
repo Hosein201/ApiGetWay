@@ -1,4 +1,5 @@
 ﻿using Entity.Models;
+using Infrastructure;
 using OrderProcessing.Mapper.Dto.Permission;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Entity.Data.Interface
 {
-    public interface IPermissionRepository : IRepository<Permission>
+    public interface IPermissionRepository : IRepository<Permission>, IScopedDependency
     {
         Task AddPermissions(List<Permission> models, CancellationToken cancellationToken);
         void UpdatePermission(Guid id, string controllerName, string actionName, string roleName);

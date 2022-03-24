@@ -1,9 +1,10 @@
-﻿using System.Threading;
+﻿using Infrastructure;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Entity.Data.Interface
 {
-    public interface IDataAccess
+    public interface IDataAccess : IScopedDependency
     {
         #region Prpduct     
         IProductRepository ProductAccess { get; set; }
